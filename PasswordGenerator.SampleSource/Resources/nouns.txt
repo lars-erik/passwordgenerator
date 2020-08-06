@@ -1,0 +1,10 @@
+﻿thing
+code
+heart
+head
+paper
+website
+tweet
+meme
+feeling
+sun

@@ -1,0 +1,23 @@
+﻿@page
+@using Newtonsoft.Json
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <div>
+        <button class="btn btn-info btn-lg float-lg-left" id="left">&lt;</button>
+        <button class="btn btn-info btn-lg float-lg-right" id="right">&gt;</button>
+    </div>
+    <div class="input-group input-group-lg">
+        <input type="text" class="form-control text-center" placeholder="Salt" id="salt"/>
+    </div>
+    <div class="input-group input-group-lg">
+        <input type="password" class="form-control text-center" id="password" value="..." />
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="toggle"><span>See</span></button>
+            <button class="btn btn-outline-secondary" type="button" id="copy"><span>Copy</span></button>
+        </div>
+    </div>
+</div>
